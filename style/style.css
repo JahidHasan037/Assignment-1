@@ -176,3 +176,32 @@ width: max-content;}
     border: 1px solid black;
     width: max-content;
 }
+.third-section{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2350px;
+    gap: 80px;
+    margin: auto 152px auto 148px;
+}
+.third-section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+.third-section-1 h3{
+    font-size: 24px;
+}
+.third-section-1 p{
+    color: grey;
+}
+.third-section-2{
+    width: 100%;
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: 17px;
+
+}
