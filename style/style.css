@@ -70,15 +70,50 @@ padding: 17px 24px;
     padding: 17px 24px; 
 }
 
-.multiple-section{
+.second-section{
      background-color: rgba(13, 19, 33, 0.02);
      border-radius: 16px;
      position: absolute;
      width: 80%;
-     height:1395
+     margin: auto 10%;
+     height:1395px;
      display: flex;
-     flex-direction: row;
-     justify-content: center;
-     align-items: center;
+     gap: 80px;
+     flex-direction: column;
+     /* justify-content: center; */
      top: 857px;
+     padding: 80px 97px;
 }
+
+.second-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   width: 100%;
+    text-align: center;
+}
+.second-2{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    padding: 48px;
+    background-color: white;
+    border-radius: 10px;
+}
+.second-2 img{
+    width: 260px;
+    height: auto;
+}
+.second-2-1{display: flex;flex-direction: column;gap: 40px;}
+.second-2 h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.second-2 p{color: gray;}
+.second-2 button{padding: 10px 30px; 
+    background-color: white;
+    border: 1px solid black;
+width: max-content;}
