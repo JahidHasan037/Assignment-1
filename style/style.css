@@ -76,9 +76,9 @@ padding: 17px 24px;
      position: absolute;
      width: 80%;
      margin: auto 10%;
-     height:1395px;
+     height:1435px;
      display: flex;
-     gap: 80px;
+     gap: 50px;
      flex-direction: column;
      /* justify-content: center; */
      top: 857px;
@@ -180,7 +180,7 @@ width: max-content;}
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 2350px;
+    top: 2450px;
     gap: 80px;
     margin: auto 152px auto 148px;
 }
@@ -205,3 +205,84 @@ width: max-content;}
     padding: 17px;
 
 }
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3150px;
+    gap: 80px;
+    margin: 100px 152px 100px 152px;
+}
+.fourth-section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+.fourth-section-1 h3{
+    font-size: 24px;
+}
+.fourth-section-1 p{
+    color: grey;
+}
+.fourth-section-2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.fourth-section-2>div{display: flex;
+    flex-direction: column;
+    justify-content: space-between;gap: 20px;}
+.fourth-section-2 img{width: 56px;}
+.fourth-section-2 p{font-size: 14px;color: gray;}
+.fourth-section-2-1{
+     background: rgba(255, 76, 30, 0.05);
+     border-radius: 16px;
+     padding: 40px;
+     gap: 10px;
+}
+.fourth-section-2-2{
+background: rgba(0, 76, 232, 0.05);
+border-radius: 16px;
+padding: 40px;
+}
+.fourth-section-2-3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+.fifth-section{
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: absolute;
+    top:3800px ;
+}
+.fifth-section-1{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    text-align: center;
+}
+.fifth-section-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.fifth-section-2>div {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border: 2px solid gainsboro;
+    border-radius: 16px;
+    gap: 40px;
+    padding: 40px 30px;
+}
+.fifth-section-sub{color: gray;display: flex;gap: 15px;flex-direction: column;flex-basis: 88%;}
+.fifth-section-img{flex-basis: 12%;}
+.fifth-section-img img{width: inherit;height: inherit;}
