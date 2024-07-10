@@ -45,8 +45,6 @@ padding: 17px 24px;
    margin-left: 0;
    margin-right: 0;
     top:131px;
-    
-    /* bottom: 4888px; */
 }
 
 
@@ -61,6 +59,24 @@ padding: 17px 24px;
     align-items: center;
     text-align: center;
    
+}
+.Container p{
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.Container h3{
+    color: rgba(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 30px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
 }
 .hero-btn{
     background-color: black;
@@ -94,14 +110,17 @@ padding: 17px 24px;
    width: 100%;
     text-align: center;
 }
+.second-1 p{
+    color: rgba(13, 19, 33, 0.7);
+}
 .second-2{
     display: flex;
     flex-direction: row;
     gap: 120px;
     padding: 48px;
-    /* background-color: white; */
     background-image: linear-gradient(to right, white, #00000000);
     border-radius: 10px;
+    color: rgba(13, 19, 33, 0.7);
 }
 .second-2 img{
     width: 260px;
@@ -113,7 +132,7 @@ padding: 17px 24px;
     font-weight: 700;
     line-height: 36px;
 }
-.second-2 p{color: gray;}
+.second-2 p{color: rgba(13, 19, 33, 0.7);}
 .second-2 button{
     padding: 10px 30px; 
     background-color: white;
@@ -142,8 +161,9 @@ padding: 17px 24px;
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
+    color: rgba(13, 19, 33, 0.7);
 }
-.second-3 p{color: gray;}
+.second-3 p{color: rgba(13, 19, 33, 0.7);}
 .second-3 button{padding: 10px 30px; 
     background-color: white;
     border: 1px solid black;
@@ -171,9 +191,10 @@ width: max-content;}
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
+    color: rgba(13, 19, 33, 0.7);
 }
 .second-4 p{
-    color: gray;}
+    color: rgba(13, 19, 33, 0.7);}
 .second-4 button{
     padding: 10px 30px; 
     background-color: white;
